@@ -1,0 +1,90 @@
+<! DOCTYPE html>
+<html>
+     <head> 
+     	 <meta charset="utf-8" />
+        <title> ACCUEIL  </title>
+        <link rel="stylesheet" href="fichier1.css" type="text/css">
+        <script src="script.js" type="text/javascript"></script>
+     </head>
+     <body style="background-color:#808080;" width=100% >
+        
+         <header> 
+         	<p class="photo"><img src="logo.png" alt="logo" width="150" height="150"></p> 
+          <p >Vaincre le cancer</p>
+         </header>
+         <nav>
+          <ul id="menu">
+           <li><a href="Qu'est_ce_que_le_cancer.html">Qu'est ce que le cancer</a></li>
+           <li> <a href="les_types_de_cancer.html">les types de cancer</a></li>
+           <li> <a href="pour_diagnostiquer.html">à qui s'adresser
+            <ul>
+              <li><a href="pour_diagnostiquer.html"> pour diagnostiquer</a></li>
+              <li><a href="pour_traiter.html"> pour traiter</a></li> 
+            </ul> 
+           </a> </li>
+           <li> <a href="les_types_de_traitement.html">traitement
+            <ul>
+              <li><a href="les_types_de_traitement.html">les types de traitement </a></li>
+              <li><a href="tests_et_procedures.html"> tests et procedures</a></li>
+              <li><a href="les_effets_secondaires.html"> les effets secondaires</a></li>
+              <li><a href="therapies_complementaires.html"> therapies complementaires</a></li> 
+            </ul> 
+           </a></li>
+           <li> <a href="nutrition.html">vivre avec
+             <ul>
+              <li><a href="nutrition.html">nutrition </a></li>
+              <li><a href="santé_mentale.html"> santé mentale</a></li>
+              <li><a href="comment_aider.html"> comment aider</a></li>
+              <li><a href="enfant_et_cancer.html"> enfant et cancer</a></li> 
+            </ul> 
+           </a> </li>
+           <li> <a href="partager_son_histoire.html">histoire 
+            <ul>
+              <li><a href="partager_son_histoire.html"> partager son histoire</a></li>
+              <li><a href="histoires_des_autres.html"> histoires des autres</a></li> 
+            </ul> 
+           </a></li>
+          </ul> 
+         </nav> 
+         <section>
+           
+           <article> 
+            <h1 id="d1" >Tous contre le cancer</h1>
+            <p align="center"> <img src="solidarite.jpeg" alt="solidarité"   width="900" height="200" > <br>  </p>
+           </article> 
+         </section>
+    <section>
+       <!--<script src="script.js"  >-->
+   <form  action="traitement.html" method="post" name="formsaise" id="formsaise"  onsubmit="return validateForm();">
+     <fieldset>
+       <table cellpadding="10">
+          <tr>
+            <td><label for="nom">Nom :</label></td>
+            <td><input type="text" name="nom" placeholder="Votre nom" size="30" maxlength="20" id="nom" onblur="nomValidate();"/></td>
+          </tr>
+          <tr>
+            <td><label for="prenom">Prenom :</label></td>
+            <td><input type="text" name="prenom" placeholder="Votre prenom" size="30" maxlength="20" id="prenom" onblur="prenomVAlidate();"/></td>
+          </tr>
+          <tr>
+            <td><label for="email">E-mail :</label></td>
+            <td><input type="text" placeholder="Votre e-mail" size="30" id="email" onblur="validateEmail();"/></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="submit" value="Envoyer" class="boutton"  /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="reset" value="Annule" class="boutton"/></td>
+       </table>
+     </fieldset>
+   </script>
+</section>
+         <footer> 
+            <p><img src="logo.png" alt="logo" width="50" height="50"></p> 
+            <p > Contact :<br>Tel :06 01 02 03 04<br>Fax : 05 06 07 08 09<br>Adresse : Bd. Prince My Abdellah, B.P. 2390, 40000 Marrakech
+            </p>
+         </footer>
+          
+     </body>
+
+</html>
